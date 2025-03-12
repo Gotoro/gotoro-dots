@@ -1,0 +1,14 @@
+
+[scrolling]
+history = 100000
+
+[general]
+import = [
+	"~/.config/alacritty/themes/themes/challenger_deep.toml"
+]
+
+[terminal]
+
+[terminal.shell]
+program = "/usr/bin/tmux"
+args = ["new", "-A", "-s 0"]
